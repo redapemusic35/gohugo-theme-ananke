@@ -1,0 +1,33 @@
+title = "Truth vs. Convenient Fiction"
+baseURL = "https://romantic-wiles-f69dd2.netlify.com"
+languageCode = "en-us"
+theme = "gohugo-theme-ananke"
+
+MetaDataFormat = "yaml"
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 20 # this is set low for demonstrating with dummy content. Set to a higher number
+
+
+googleAnalytics = "UA-127789838-1"
+disqusShortname = "true-convenience-com"
+enableRobotsTXT = true
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  description = "This Blog is Dedicated to Philosopher Alvin Plantinga's Evolutionary Argument against Naturalism."
+  facebook = ""
+  twitter = ""
+  instagram = ""
+  youtube = ""
+  github = ""
+  linkedin = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-black"
+  featured_image = "/images/wivenhoe-park.jpg"
+  recent_posts_number = 2
